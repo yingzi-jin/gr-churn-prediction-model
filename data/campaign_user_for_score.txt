@@ -1,0 +1,11 @@
+mission_time	mission_day	mission_app	mission_type	mission_startday	login_day	login_app	login_time	login_day_tapp	login_app_tapp	login_time_tapp	kyumin	kyumin_tapp	spend_day	spend_app	spend_time	spend_coin	spend_day_tapp	spend_app_tapp	spend_time_tapp	spend_coin_tapp	reg_period	flag
+1	1	1	1	3	30	7	65	29	2	30	0	0	2	2	2	126	0	0	0	0	211	1
+2	2	2	2	14	36	6	82	10	3	13	0	1	7	2	11	2841	0	0	0	0	1330	1
+31	10	5	7	13	20	13	67	10	5	46	0	1	2	1	2	350	0	0	0	0	532	1
+1	1	1	1	12	36	6	69	11	2	11	0	0	15	3	92	146860	0	0	0	0	174	1
+1	1	1	1	20	35	4	42	3	1	3	0	1	1	1	1	100	0	0	0	0	1527	1
+1	1	1	1	23	32	7	39	2	2	2	0	1	1	1	1	10	0	0	0	0	770	1
+23	7	4	9	27	35	6	65	35	4	52	0	0	1	1	1	150	0	0	0	0	437	1
+1	1	1	1	14	36	3	42	1	1	1	0	1	11	2	40	9610	0	0	0	0	474	1
+1	1	1	1	15	36	10	161	2	2	2	0	0	7	2	38	84710	0	0	0	0	1571	1
+1	1	1	1	13	36	12	90	1	1	1	0	1	7	1	8	2250	0	0	0	0	220	1
