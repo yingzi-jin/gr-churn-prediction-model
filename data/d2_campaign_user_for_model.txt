@@ -1,0 +1,11 @@
+mission_time	mission_day	mission_startday	login_app	login_tapp	kyumin	spend	reg_period	class
+mt1_5	md1_5	mstd1_5	la6_10	lat_5	actPF_kyuTA	unspdPF_unspdTA	reg_500	churn
+mt1_5	md1_5	mstd11_20	la6_10	lat_3	actPF_actTA	spdPF_spdTA	reg_500more	churn
+mt1_5	md1_5	mstd21_30	la1_5	lat_1	actPF_kyuTA	unspdPF_unspdTA	reg_500more	churn
+mt1_5	md1_5	mstd11_20	la1_5	lat_1	actPF_kyuTA	spdPF_unspdTA	reg_500more	churn
+mt1_5	md1_5	mstd1_5	la1_5	lat_2	actPF_actTA	spdPF_unspdTA	reg_500more	churn
+mt1_5	md1_5	mstd11_20	la_20more	lat_2	kyuPF_kyuTA	unspdPF_unspdTA	reg_30	churn
+mt1_5	md1_5	mstd11_20	la1_5	lat_1	actPF_actTA	spdPF_spdTA	reg_30	churn
+mt1_5	md1_5	mstd21_30	la1_5	lat_1	actPF_actTA	unspdPF_unspdTA	reg_500more	churn
+mt1_5	md1_5	mstd6_10	la6_10	lat_1	actPF_kyuTA	spdPF_unspdTA	reg_500more	churn
+mt1_5	md1_5	mstd6_10	la6_10	lat_1	actPF_kyuTA	spdPF_unspdTA	reg_500	churn
