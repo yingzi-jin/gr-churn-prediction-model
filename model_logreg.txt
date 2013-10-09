@@ -1,0 +1,48 @@
+Learner | CA | Brier | AUC
+logreg   0.879 0.181 0.943
+
+classifier: 
+Orange.classification.logreg.LogRegClassifier 'logReg'
+
+dump:
+class attribute = flag
+class values = <0, 1>
+
+         Feature       beta  st. error     wald Z          P OR=exp(beta)
+
+       Intercept       4.94       0.13      38.06       0.00
+  login_day_tapp      -0.13       0.00     -49.96       0.00 8.74e-1
+ login_time_tapp      -0.01       0.00     -10.69       0.00 9.91e-1
+mission_startday      -0.04       0.00     -18.53       0.00 9.61e-1
+      reg_period      -0.00       0.00     -10.77       0.00 9.99e-1
+   mission_app=2      -0.11       0.06      -2.04       0.04 8.92e-1
+   mission_app=3      -0.02       0.08      -0.24       0.81 9.80e-1
+   mission_app=4       0.34       0.11       3.05       0.00 1.40e0
+   mission_app=5       0.56       0.15       3.85       0.00 1.75e0
+  spend_day_tapp      -0.03       0.01      -2.75       0.01 9.73e-1
+login_app_tapp=0       1.68       0.35       4.81       0.00 5.36e0
+login_app_tapp=1       0.17       0.09       1.85       0.06 1.19e0
+login_app_tapp=2       0.11       0.09       1.25       0.21 1.11e0
+login_app_tapp=3       0.03       0.08       0.37       0.71 1.02e0
+login_app_tapp=4       0.04       0.07       0.60       0.55 1.04e0
+    mission_type      -0.09       0.02      -4.44       0.00 9.12e-1
+        kyumin=1      -0.65       0.09      -7.03       0.00 5.21e-1
+       login_day      -0.01       0.00      -4.37       0.00 9.86e-1
+   kyumin_tapp=1       0.35       0.07       4.65       0.00 1.41e0
+spend_app_tapp=1      -0.11       0.05      -2.12       0.03 8.97e-1
+spend_app_tapp=2       0.01       0.10       0.13       0.90 1.01e0
+spend_app_tapp=3       0.00       0.20       0.02       0.98 1.00e0
+spend_app_tapp=4       0.34       0.35       0.96       0.34 1.40e0
+spend_app_tapp=5       0.03       0.83       0.04       0.97 1.03e0
+ spend_time_tapp       0.00       0.00       2.36       0.02 1.00e0
+ spend_coin_tapp      -0.00       0.00      -2.75       0.01 9.99e-1
+     mission_day      -0.04       0.01      -4.96       0.00 9.60e-1
+    mission_time       0.01       0.00       4.35       0.00 1.01e0
+       login_app       0.01       0.00       2.18       0.03 1.00e0
+       spend_day      -0.02       0.01      -3.16       0.00 9.79e-1
+       spend_app       0.05       0.02       2.70       0.01 1.05e0
+      login_time      -0.00       0.00      -2.05       0.04 9.99e-1
+      spend_time       0.00       0.00       1.33       0.18 1.00e0
+
+Runtimes:
+277.958000183
